@@ -14,26 +14,26 @@
     <form action="/contact" method="POST">
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
-        <input type="text" class="form-control" placeholder="Firs Name" aria-label="Username" aria-describedby="basic-addon1" required>
+        <input type="text" name="firstName" class="form-control" placeholder="Firs Name" aria-label="Username" aria-describedby="basic-addon1" required>
       </div>
 
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
-        <input type="text" class="form-control" placeholder="Last Name" aria-label="Username" aria-describedby="basic-addon1" required>
+        <input type="text" name="lastName" class="form-control" placeholder="Last Name" aria-label="Username" aria-describedby="basic-addon1" required>
       </div>
 
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
-        <input type="text" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1" required>
+        <input type="text" name="contactNumber" class="form-control" placeholder="Contact Number" aria-label="Username" aria-describedby="basic-addon1" required>
       </div>
 
       <div class="input-group mb-3">
-        <input type="email" class="form-control" placeholder="Email" aria-label="Username">
+        <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Username">
       </div>
 
       <div class="input-group">
         <span class="input-group-text">Message:</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <textarea name = "message" class="form-control" aria-label="With textarea"></textarea>
       </div>
 
       <button type="submit" class="btn btn-primary">Send Message</button>
